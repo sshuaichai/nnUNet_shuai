@@ -13,6 +13,7 @@ For training a GPU with at least 10 GB (popular non-datacenter options are the R
 required. We also recommend a strong CPU to go along with the GPU. 6 cores (12 threads) 
 are the bare minimum! CPU requirements are mostly related to data augmentation and scale with the number of 
 input channels and target structures. Plus, the faster the GPU, the better the CPU should be!
+简而言之，VRAM是GPU的内存，用于存储和快速访问图形和计算数据，对于深度学习和高性能计算任务至关重要。
 
 ### Hardware Requirements for inference
 Again we recommend a GPU to make predictions as this will be substantially faster than the other options. However, 
